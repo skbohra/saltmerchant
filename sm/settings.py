@@ -71,7 +71,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'sm.wsgi.application'
-CSRF_TRUSTED_ORIGINS = ["https://web-production-0958.up.railway.app"]
+CSRF_TRUSTED_ORIGINS = ["https://saltmerchant.up.railway.app"]
 
 
 # Database
