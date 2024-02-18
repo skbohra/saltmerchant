@@ -8,6 +8,10 @@ from django.db.models import Avg, Count, Min, Sum
 from .forms import *
 from django.db.models.functions import Coalesce
 
+'''
+SALT MERCHANT
+
+'''
 def index(request):
     return render(request,'index.html')
 
