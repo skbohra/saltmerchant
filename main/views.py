@@ -285,6 +285,7 @@ def payout_calculation(request):
             else:
                 msg = "Take From Bank" 
             total_payout = abs(total_payout)
+            form = PayOutForm()
             return render(request,'payout_calculation.html',{'form':form,'payout':abs(total_payout),'msg': msg})
 
     return render(request,'payout_calculation.html',{'form':form})
